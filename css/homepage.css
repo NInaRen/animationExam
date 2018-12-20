@@ -1,0 +1,423 @@
+@font-face {
+    font-family: 'iconfont';
+    src: url('iconfont/iconfont.eot');
+    src: url('iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('iconfont/iconfont.woff') format('woff'),
+    url('iconfont/iconfont.ttf') format('truetype'),
+    url('iconfont/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:12px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: PingFangSC-Regular, "Microsoft YaHei", "微软雅黑", Helvetica, sans-serif;
+}
+
+html, body {
+    min-width: 1180px;
+    background: #F5F5F5;
+}
+
+.header {
+    width: 100%;
+    height: 3274px;
+    background: url("../img/qianmian.png") no-repeat center;
+}
+
+.content-wrapper {
+
+}
+
+.product-introduce-chinese {
+    font-family: PingFangSC-Medium, "Microsoft YaHei", "微软雅黑", Helvetica, sans-serif;
+    font-size: 26px;
+    color: #222222;
+    letter-spacing: 0.2px;
+    text-align: center;
+    line-height: 37px;
+}
+
+.product-introduce-english {
+    font-family: PingFangSC-Light,"Microsoft YaHei", "微软雅黑", Helvetica, sans-serif;
+    font-size: 14px;
+    color: #777777;
+    letter-spacing: 0.11px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.product-box-wrapper {
+    font-size: 0;
+    margin-top: 68px;
+}
+
+.product-box {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    height: 280px;
+}
+
+.product-image {
+    width: 100%;
+    height: 100%;
+}
+
+.product-bigger-image {
+    display: none;
+    position: absolute;
+    top:0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+.product-mask {
+    display: none;
+    position: absolute;
+    top:100%;
+    left: -5%;
+    width: 110%;
+    height: 110%;
+    z-index: 99;
+}
+
+.product-detail-bg {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.75;
+    background: #000000;
+}
+.product-detail {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 32px 51px 38px 48px;
+}
+
+.product-title {
+    height: 50px;
+    border-bottom: 1px dashed #FFFFFF;;
+}
+
+.product-name {
+    font-family: PingFangSC-Medium,"Microsoft YaHei", "微软雅黑", Helvetica, sans-serif;
+    font-size: 28px;
+    color: #F5A623;
+    letter-spacing: 0.22px;
+    line-height: 40px;
+}
+
+.product-manager {
+    float: right;
+    right: 0;
+    font-family: PingFangSC-Light,"Microsoft YaHei", "微软雅黑", Helvetica, sans-serif;
+    font-size: 15px;
+    color: #FFFFFF;
+    letter-spacing: 0.12px;
+    line-height: 21px;
+    margin-top: 10px;
+}
+
+.product-brief {
+    /*font-family: PingFangSC-Regular;*/
+    font-size: 15px;
+    color: #FFFFFF;
+    letter-spacing: 0.12px;
+    line-height: 26px;
+    margin-top: 11px;
+}
+
+.more-detail {
+    /*font-family: PingFangSC-Regular;*/
+    margin-top: 26px;
+    width: 210px;
+    height: 46px;
+    font-size: 12px;
+    background-color: #F5A623;
+    border-radius: 23px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    color: black;
+    transition: color 0.5s,background-color 0.5s;
+}
+
+.more-detail:hover {
+    color: #fff;
+    background-color: #F4901F;
+}
+
+.more-detail span {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 15px;
+}
+
+.more-detail .arrow-right {
+    margin-top: 17px;
+}
+
+.statistic-wrapper {
+    margin-top: 74px;
+}
+
+.short-line {
+    font-size: 0;
+    text-align: center;
+}
+
+.short-line span{
+    display: inline-block;
+    width: 36px;
+    height: 4px;
+    background: #007CDB;
+}
+
+.statistic-title {
+    font-family: PingFangSC-Semibold,"Microsoft YaHei", "微软雅黑", Helvetica, sans-serif;
+    font-size: 32px;
+    line-height: 45px;
+    margin-top: 25px;
+    color: #222222;
+    letter-spacing: 0.27px;
+    text-align: center;
+}
+
+.statistic-brief {
+    width: 1063px;
+    padding: 0 43px;
+    margin: 24px auto 68px auto;
+    font-family: PingFangSC-Light,"Microsoft YaHei", "微软雅黑", Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    color: #777777;
+    letter-spacing: 0.14px;
+    text-align: center;
+}
+
+.statistic-box-wrapper {
+    font-size: 0;
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.statistic-box {
+    display: inline-block;
+    vertical-align: top;
+    width: 295px;
+    height: 141px;
+}
+
+.count-wrapper {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.count {
+    font-family: STHeitiSC-Light,"Microsoft YaHei", "微软雅黑", Helvetica, sans-serif;
+    font-size: 72px;
+    color: #222222;
+    letter-spacing: 0.61px;
+    line-height: 72px;
+}
+
+.unit {
+    font-family: STHeitiSC-Medium,"Microsoft YaHei", "微软雅黑", Helvetica, sans-serif;
+    font-size: 36px;
+    color: #222222;
+    letter-spacing: 0.31px;
+    line-height: 36px;
+}
+
+.statistic-name {
+    margin-top: 21px;
+    text-align: center;
+    line-height: 24px;
+    /*font-family: PingFangSC-Regular;*/
+    font-size: 17px;
+    color: #222222;
+    letter-spacing: 0.14px;
+    text-align: center;
+}
+
+.success-case-wrapper {
+    position: relative;
+    width: 1180px;
+    margin: 68px auto;
+    padding-bottom: 6px;
+    height: 640px;
+}
+
+.case-box-wrapper {
+    position: absolute;
+    top:124px;
+    left:0;
+    width: 1230px;
+    font-size: 0;
+    height: 420px;
+    padding-left: 50px;
+}
+
+.case-box {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 368px;
+    height: 420px;
+    margin-left: 38px;
+    opacity: 0;
+}
+
+.case-box-wrapper .case-box:first-child {
+    margin-left: 0;
+}
+
+.case-box-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: none;
+    transition: box-shadow 1s, background-color 1s, top 1s;
+    padding-bottom: 42px;
+}
+
+.case-box-content:hover {
+    top: -20px;
+    background-color: #FFFFFF;
+    box-shadow: 0 27px 31px 4px rgba(0,0,0,0.07);
+}
+
+.case-img {
+    width: 100%;
+    height: 290px;
+}
+
+.case-name {
+    text-align: center;
+    /*font-family: PingFangSC-Regular;*/
+    font-size: 22px;
+    color: #222222;
+    letter-spacing: 0.17px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.case-brief {
+    position: relative;
+    font-family: PingFangSC-Light,"Microsoft YaHei", "微软雅黑", Helvetica, sans-serif;
+    font-size: 15px;
+    color: #777777;
+    letter-spacing: 0.12px;
+    text-align: justify;
+    line-height: 22px;
+    margin-top: 12px;
+    padding: 0 18px;
+}
+
+.case-detail {
+    position: absolute;
+    right: 18px;
+    bottom: 0;
+    font-family: PingFangSC-Light,"Microsoft YaHei", "微软雅黑", Helvetica, sans-serif;
+    font-size: 15px;
+    color: #007CDB;
+    letter-spacing: 0.12px;
+    text-align: justify;
+    cursor: pointer;
+}
+
+.pagination-wrapper {
+    text-align: center;
+    height: 26px;
+    margin-top: 550px;
+}
+
+.pagination-wrapper span {
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.pagination-wrapper .pre-page {
+    width: 25px;
+    height: 26px;
+    font-size: 34px;
+    color: #DEDEDE;
+    font-weight: 700;
+    margin-right: 20px;
+    margin-top: -5px;
+    cursor: pointer;
+    transition: color 0.5s;
+}
+
+.pagination-wrapper .pre-page:hover {
+    color: #007CDB;
+}
+
+.pagination-wrapper .pre-disabled {
+    cursor: not-allowed;
+}
+
+.pagination-wrapper .dot-page {
+    width: 6px;
+    height: 6px;
+    background: #DEDEDE;
+    border-radius: 3px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.pagination-wrapper .current-page {
+    width: 20px;
+    height: 6px;
+    background: #007CDB;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+.pagination-wrapper .next-page {
+    width: 25px;
+    height: 26px;
+    font-size: 34px;
+    color: #DEDEDE;
+    font-weight: 700;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: color 0.5s;
+    margin-top: -5px;
+}
+
+.pagination-wrapper .next-page:hover {
+    color: #007CDB;
+}
+
+.pagination-wrapper .next-disabled {
+    cursor: not-allowed;
+}
+
+
+.footer {
+    width: 100%;
+    height: 559px;
+    background: url("../img/weiba.png") no-repeat center;
+}

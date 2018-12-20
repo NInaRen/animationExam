@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="md-arrow-back" unicode="&#59399;" d="M854 426.75H334.592l239.404 239.404L512 726 170 384l342-342 59.844 59.848-237.252 239.402H854v85.5z"  horiz-adv-x="1024" />
+
+    
+    <glyph glyph-name="md-arrow-forward" unicode="&#59400;" d="M170 341.25h519.408L450.004 101.846 512 42l342 342L512 726l-59.844-59.848 237.252-239.402H170v-85.5z"  horiz-adv-x="1024" />
+
+    
+    <glyph glyph-name="md-arrow-round-back" unicode="&#59401;" d="M802.8 448h-428l166 158.8c23.8 25 23.8 65.4 0 90.4s-62.4 25-86.4 0L178 429.2c-12-11.6-18-27.4-18-44.8v-0.8c0-17.4 6-33.2 18-44.8l276.2-268c24-25 62.6-25 86.4 0 23.8 25 23.8 65.4 0 90.4l-166 158.8h428c33.8 0 61.2 28.6 61.2 64 0.2 36-27.2 64-61 64z"  horiz-adv-x="1024" />
+
+    
+    <glyph glyph-name="md-arrow-round-forwa" unicode="&#59402;" d="M569.8 70.8l276.2 268c12 11.6 18 27.4 18 44.8v0.8c0 17.4-6 33.2-18 44.8l-276.2 268c-24 25-62.6 25-86.4 0-23.8-25-23.8-65.4 0-90.4l166-158.8h-428c-34 0-61.4-28.6-61.4-64 0-36 27.4-64 61.2-64h428l-166-158.8c-23.8-25-23.8-65.4 0-90.4 24-25 62.6-25 86.6 0z"  horiz-adv-x="1024" />
+
+    
+    <glyph glyph-name="arrow-right" unicode="&#58883;" d="M1091.669333 426.666667L737.792 780.458667l60.416 60.416 454.997333-455.082667-454.997333-454.997333-60.416 60.330666L1088 341.33333300000004H0v85.333334h1091.669333z"  horiz-adv-x="1280" />
+
+    
+
+
+  </font>
+</defs></svg>
